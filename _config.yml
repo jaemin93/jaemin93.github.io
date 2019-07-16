@@ -1,0 +1,32 @@
+name: Jaemin Jung
+author: Jaemin Jung
+url: "https://jaemin93.github.io"
+baseurl: ""
+description: for fun
+github: https://www.github.com/jaemin93
+twitter: https://www.twitter.com/
+facebook: https://www.facebook.com
+linkedin: https://www.linkedin.com
+email: icebanana93[at]gmail.com
+location: 37°24'07.5"N   127°06'31.4"E
+disqus: diqus-icebanana93
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
